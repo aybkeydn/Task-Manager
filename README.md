@@ -14,7 +14,7 @@ Modern ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcıların g
 
 
 
-https://github.com/user-attachments/assets/b252dff7-d005-425a-8d1c-cf52b0a444e0
+
 
 
 
