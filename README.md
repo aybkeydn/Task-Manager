@@ -11,7 +11,11 @@ Modern ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcıların g
 <img width="838" alt="dashboard" src="https://github.com/user-attachments/assets/af485e2b-b81d-4040-a5e1-5cd955c5b0fc" />
 <img width="822" alt="kategoriler" src="https://github.com/user-attachments/assets/cab0651c-cc6d-45d3-b7b9-f00fc19ccc75" />
 
-https://github.com/user-attachments/assets/2e6b065a-7a7f-4dae-9612-4d8d56ef19b4
+
+
+
+https://github.com/user-attachments/assets/b252dff7-d005-425a-8d1c-cf52b0a444e0
+
 
 
 
