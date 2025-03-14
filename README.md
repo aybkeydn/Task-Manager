@@ -6,7 +6,8 @@ Modern ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcıların g
 
 ![Projeye ait görseller]
 
-![image](https://github.com/user-attachments/assets/c2708746-beb5-43a7-9e1f-62e0e23e284b)
+![image](https://github.com/user-attachments/assets/7084ce1a-e714-400e-a456-407c301fbe1e)
+
 
 
 <img width="838" alt="dashboard" src="https://github.com/user-attachments/assets/af485e2b-b81d-4040-a5e1-5cd955c5b0fc" />
