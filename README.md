@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/2e6b065a-7a7f-4dae-9612-4d8d56ef19b4
 1. Projeyi klonlayın:  
    ```bash
    git clone https://github.com/aybkeydn/Task-Manager-FullStack/.git
-   cd gorev-yonetim-sistemi
+   cd Task-Manager-FullStack
    ```
 2. Bağımlılıkları yükleyin:  
    ```bash
