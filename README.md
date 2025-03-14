@@ -4,9 +4,10 @@
 ## 📝 **Proje Açıklaması**  
 Modern ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcıların günlük görevlerini kolayca takip edebilmesi, yönetebilmesi ve organize edebilmesi için tasarlanmıştır.
 
-![Proje Ekran Görüntüsü]
-<img width="838" alt="Screenshot 2025-03-14 140119" src="https://github.com/user-attachments/assets/af485e2b-b81d-4040-a5e1-5cd955c5b0fc" />
-<img width="822" alt="Screenshot 2025-03-14 140301" src="https://github.com/user-attachments/assets/cab0651c-cc6d-45d3-b7b9-f00fc19ccc75" />
+![Projeye ait görseller]
+
+<img width="838" alt="dashboard" src="https://github.com/user-attachments/assets/af485e2b-b81d-4040-a5e1-5cd955c5b0fc" />
+<img width="822" alt="kategoriler" src="https://github.com/user-attachments/assets/cab0651c-cc6d-45d3-b7b9-f00fc19ccc75" />
 
 
 
