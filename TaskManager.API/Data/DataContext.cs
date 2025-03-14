@@ -4,25 +4,28 @@ using System.Reflection.Emit;
 using System.Reflection;
 using TaskManager.API.Models;
 
+
+//bu sınıf veritabanı ile ef arasında köprü görevi görür.olmazsa olmazdır.
+
 namespace TaskManager.API.Data
 {
-    public class DataContext : DbContext
+    public class DataContext : DbContext // dbcontext sınıfından üretilmiş bir sınıf
     {
-        public DataContext(DbContextOptions<DataContext> options) : base(options)
+        public DataContext(DbContextOptions<DataContext> options) : base(options) 
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<User> Users { get; set; } // veritabanındaki users tablosu ile ilişkili
         public DbSet<Models.Task> Tasks { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<TaskCategory> TaskCategories { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder) //
         {
             // Users tablosu konfigürasyonu
-            modelBuilder.Entity<User>(entity =>
+            modelBuilder.Entity<User>(entity => 
             {
-                entity.HasKey(e => e.UserId);
+                entity.HasKey(e => e.UserId); 
                 entity.Property(e => e.Username).IsRequired().HasMaxLength(100);
                 entity.Property(e => e.Email).IsRequired().HasMaxLength(100);
                 entity.Property(e => e.PasswordHash).IsRequired().HasMaxLength(255);

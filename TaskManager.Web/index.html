@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Görev Yönetim Sistemi</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<style>
+    body {
+    background: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+    
+}
+
+</style>
+<body>
+    <div class="auth-container">
+        <div class="auth-title">- GÖREV YÖNETİM SİSTEMİ -</div>
+        
+        <div class="auth-tabs">
+            <button id="loginTab" class="tab active">Giriş Yap</button>
+            <button id="registerTab" class="tab">Kayıt Ol</button>
+        </div>
+
+        <div class="auth-forms">
+            <!-- Giriş Formu -->
+            <form id="loginForm" class="form">
+                <div class="form-group">
+                    <label for="loginUsername">Kullanıcı Adı</label>
+                    <input 
+                        type="text" 
+                        id="loginUsername" 
+                        name="username" 
+                        required 
+                        placeholder="Kullanıcı adınızı girin"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Şifre</label>
+                    <input 
+                        type="password" 
+                        id="loginPassword" 
+                        name="password" 
+                        required 
+                        placeholder="Şifrenizi girin"
+                    >
+                </div>
+                <div id="loginError" class="error-message"></div>
+                <button type="submit" class="submit-btn">Giriş Yap</button>
+            </form>
+
+            <!-- Kayıt Formu -->
+            <form id="registerForm" class="form" style="display: none;">
+                <div class="form-group">
+                    <label for="registerUsername">Kullanıcı Adı</label>
+                    <input 
+                        type="text" 
+                        id="registerUsername" 
+                        name="username" 
+                        required 
+                        placeholder="Kullanıcı adı oluşturun"
+                        minlength="3"
+                        maxlength="100"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">E-Posta</label>
+                    <input 
+                        type="email" 
+                        id="registerEmail" 
+                        name="email" 
+                        required 
+                        placeholder="E-posta adresinizi girin"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Şifre</label>
+                    <input 
+                        type="password" 
+                        id="registerPassword" 
+                        name="password" 
+                        required 
+                        placeholder="Şifre oluşturun"
+                        minlength="6"
+                        maxlength="100"
+                    >
+                </div>
+                <div class="form-group">
+                    <label for="registerConfirmPassword">Şifre Tekrar</label>
+                    <input 
+                        type="password" 
+                        id="registerConfirmPassword" 
+                        name="confirmPassword" 
+                        required 
+                        placeholder="Şifreyi tekrar girin"
+                    >
+                </div>
+                <div id="registerError" class="error-message"></div>
+                <button type="submit" class="submit-btn">Kayıt Ol</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/api.js"></script>
+    <script src="scripts/auth.js"></script>
+</body>
+</html>

@@ -25,7 +25,7 @@ namespace TaskManager.API.Controllers
             _authService = authService;// servislerin const. üzerinden atanması
             _configuration = configuration;//aynı işlem 
         }
-
+         
         [HttpPost("register")] // kullanıcı kayıt işlemi 
 
         // bir kullanıcı kaydı isteğini işler.

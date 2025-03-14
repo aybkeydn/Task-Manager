@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+//model,uygulamanın veritabanındaki tabloları temsil eden sınıflarıdır.
+
 namespace TaskManager.API.Models
 {
     public class User
@@ -12,7 +14,7 @@ namespace TaskManager.API.Models
         public DateTime CreatedDate { get; set; }
         public bool IsActive { get; set; }
 
-        // Navigation properties
+        // Navigation properties, ilişkili tabloları temsil eden sınıflardır
         public ICollection<Task> CreatedTasks { get; set; }
         public ICollection<Task> AssignedTasks { get; set; }
         public ICollection<Category> Categories { get; set; }

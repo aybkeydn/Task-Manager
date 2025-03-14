@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
+
+// dto(data-transfer-object),apinin kullanıcı,görev vs. verilerini yönetme şeklini belirleyen temel yapı taşıdır.
+// dto,apinin istemciden aldığı veriyi işleyip,veritabanına kaydetme işlemini yapar.
+
 namespace TaskManager.API.DTOs
 {
     // User ile ilgili DTOs

@@ -23,7 +23,8 @@ namespace TaskManager.API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TaskDetailDto>>> GetTasks([FromQuery] TaskFilterDto filter)
+        public async Task<ActionResult<IEnumerable<TaskDetailDto>>> GetTasks([FromQuery] TaskFilterDto filter)// giriş yapmış kullanıcının görevlerini filtreleyerek getirir.
+         //Fromquery: http isteğinden gelen parametreleri alır.
         {
             var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
             var tasks = await _taskService.GetTasksAsync(userId, filter);

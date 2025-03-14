@@ -25,7 +25,7 @@ namespace TaskManager.API.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDto>>> GetCategories()
         {
-            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));
+            var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier));//jwt veya authentication sisteminde oturum açılan id 'yi alır.
             var categories = await _categoryService.GetCategoriesAsync(userId);
             return Ok(categories);
         }
