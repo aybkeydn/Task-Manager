@@ -59,7 +59,7 @@ Modern ve kullanıcı dostu bir görev yönetim uygulaması. Kullanıcıların g
 ### **Backend Kurulumu**  
 1. Projeyi klonlayın:  
    ```bash
-   git clone https://github.com/aybkeydn/Task-Manager-FullStack/.git
+   git clone https://github.com/aybkeydn/Task-Manager/.git
    cd Task-Manager-FullStack
    ```
 2. Bağımlılıkları yükleyin:  
